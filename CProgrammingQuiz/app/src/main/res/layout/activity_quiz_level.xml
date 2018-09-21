@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizLevelActivity">
+
+    <android.support.v7.widget.Toolbar
+        app:titleTextColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorMain"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/toolbar">
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/begginerbutton"
+            android:layout_width="336dp"
+            android:layout_height="65dp"
+            android:layout_margin="15dp"
+            android:background="@color/colorMain"
+            android:paddingLeft="20dp"
+            android:text="Beginner"
+            android:textColor="@color/colorWhite"
+            android:textSize="30sp" />
+        <Button
+            android:id="@+id/intermidiatebutton"
+            android:layout_width="336dp"
+            android:layout_height="65dp"
+            android:layout_margin="15dp"
+            android:background="@color/colorMain"
+            android:paddingLeft="20dp"
+            android:text="Intermidiate"
+            android:textColor="@color/colorWhite"
+            android:textSize="30sp"/>
+        <Button
+            android:id="@+id/expertbutton"
+            android:layout_width="336dp"
+            android:layout_height="65dp"
+            android:layout_margin="15dp"
+            android:background="@color/colorMain"
+            android:paddingLeft="20dp"
+            android:text="Expert"
+            android:textColor="@color/colorWhite"
+            android:textSize="30sp" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">C Programming Quiz</string>
+    <string-array name="C_programming">
+        <item>Variables</item>
+        <item>Constants</item>
+        <item>Functions for Input</item>
+        <item>Functions for output</item>
+        <item>Header files</item>
+        <item>Predifine</item>
+        <item>Return</item>
+        <item>Arithmetic Signs</item>
+        <item>Strings</item>
+        <item>Data Types</item>
+    </string-array>
+
+    <string name="helloworld">
+        int main()\n
+        {\n
+        printf("Hello World");\n
+        return 0;\n
+        }\n
+    </string>
+
+     <string name="about"> Total C Programming is a learning app
+            that helps ypu learn C completely\n
+            \n\nDevelopers:
+            \nMd. Nazam-As-Sakib Showad\nsakibshowad@gmail.com
+            \n\n\n\nKya Ching Hla\nkyaching@gmail.com\n\n
+     </string>
+
+     <string name="question">If a=3 and b=2 , than a%b= ?
+     </string>
+
+
+
+</resources>
