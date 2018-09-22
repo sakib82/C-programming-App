@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public void openQuizMain(){
-        Intent intent=new Intent(this,QuizMainActivity.class);
+        Intent intent=new Intent(this,loginpage.class);
         startActivity(intent);
     }
 }

@@ -7,15 +7,21 @@
     android:orientation="vertical"
     tools:context=".Camera">
 
-
+    <ImageView
+        android:id="@+id/pic_imagetextview"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:layout_width="300dp"
+        android:layout_height="400dp" />
     <Button
         android:id="@+id/camerabutton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:layout_margin="20dp"
         android:text="Camera"
-
-
+        android:background="@color/red"
         />
+
 
 </LinearLayout>

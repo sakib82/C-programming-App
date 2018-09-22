@@ -21,16 +21,17 @@
         }\n
     </string>
 
-     <string name="about"> Total C Programming is a learning app
+    <string name="about"> Total C Programming is a learning app
             that helps ypu learn C completely\n
             \n\nDevelopers:
             \nMd. Nazam-As-Sakib Showad\nsakibshowad@gmail.com
             \n\n\n\nKya Ching Hla\nkyaching@gmail.com\n\n
      </string>
 
-     <string name="question">If a=3 and b=2 , than a%b= ?
+    <string name="test1question1">If a=3 and b=2 , than a%b= ?
      </string>
-
+    <string name="test1question2">If a=3 and b=2 , than a + b = ?
+     </string>
 
 
 </resources>

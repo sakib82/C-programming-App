@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <color name="appcolor">#eb4c8d</color>
+    <color name="buttoncolor">#846dfa</color>
+
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorText">#4EFFFF</color>
     <color name="colorSignup">#EB0E3A</color>
