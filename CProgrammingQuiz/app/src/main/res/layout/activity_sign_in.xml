@@ -1,76 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignInActivity">
+    tools:context=".SignInActivity"
+    android:orientation="vertical"
+    >
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="77dp"
-        android:orientation="vertical">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Email"
-            android:textSize="20sp"/>
-
-        <EditText
-            android:id="@+id/edittextemail"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Enter your Email"
-            android:inputType="textEmailAddress" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Password"
-            android:textSize="20sp"/>
-
-        <EditText
-            android:id="@+id/edittextpassword"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Enter your Password"
-            android:inputType="textPassword" />
-
-        <Button
-            android:id="@+id/buttonlogin"
-            android:layout_width="351dp"
-            android:layout_height="65dp"
-            android:layout_margin="15dp"
-            android:background="@color/colorMain"
-            android:text="Log In" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="140dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="350dp"
-        android:orientation="vertical">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="New to Quiz?"
-            android:gravity="center"
-            android:textSize="25sp"/>
-        <Button
-            android:id="@+id/buttonsignup"
-            android:layout_width="351dp"
-            android:layout_height="65dp"
-            android:layout_margin="15dp"
-            android:background="@color/colorSignup"
-            android:text="Sign Up Now" />
-    </LinearLayout>
-</RelativeLayout>
+        android:text="Full Name"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Your name here"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Address"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"/>
+    <EditText
+        android:hint="example@gmail.com"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="passsword"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"/>
+    <EditText
+        android:hint="********"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm passsword"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"/>
+    <EditText
+        android:hint="********"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        />
 
 
+    <Button
+        android:id="@+id/sign_up_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Sign-Up"
+        android:background="@color/appcolor"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        />
 
 
+</LinearLayout>

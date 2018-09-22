@@ -12,19 +12,21 @@
         android:layout_height="170dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="113dp"
-        app:srcCompat="@drawable/logo" />
+        android:layout_marginTop="108dp"
+        app:srcCompat="@drawable/logo"
+         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Learn C and Improve yourself"
-        android:textSize="25sp"
-        android:textColor="#4B95D8"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="240dp"
-        android:gravity="center"/>
+        android:layout_marginBottom="211dp"
+        android:gravity="center"
+        android:text="Learn C and Improve yourself"
+        android:textColor="#4B95D8"
+        android:textSize="25sp"
+         />
 
     <Button
         android:id="@+id/button"
@@ -32,11 +34,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="80dp"
-        android:background="@color/colorMain"
         android:layout_margin="20dp"
-        android:text="Get Started" />
-
-
+        android:layout_marginBottom="44dp"
+        android:background="@color/colorMain"
+        android:text="Get Started"
+         />
 
 </RelativeLayout>

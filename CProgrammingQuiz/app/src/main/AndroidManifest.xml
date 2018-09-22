@@ -37,6 +37,8 @@
         <activity android:name=".Test1Question10" />
         <activity android:name=".Camera" />
         <activity android:name=".loginpage" />
+        <activity android:name=".About" />
+        <activity android:name=".Developers"></activity>
     </application>
 
 </manifest>
