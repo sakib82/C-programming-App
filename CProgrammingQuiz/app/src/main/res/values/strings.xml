@@ -32,6 +32,23 @@
      </string>
     <string name="test1question2">If a=3 and b=2 , than a + b = ?
      </string>
+    <string name="variabletext"> A variable is just a named area of storage that can hold a single value (numeric or character). The C language demands that you declare the name of each variable that you are going to use and its type, or class, before you actually try to do anything with it.
+
+The Programming language C has two main variable types\n\n
+
+Local Variables\n
+
+Global Variables\n\n
+
+Local Variables\n
+Local variables scope is confined within the block or function where it is defined. Local variables must always be defined at the top of a block.
+
+When a local variable is defined - it is not initalised by the system, you must initalise it yourself.
+
+When execution of the block starts the variable is available, and when the block ends the variable 'dies'.
+
+
+     </string>
 
 
 </resources>

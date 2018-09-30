@@ -38,7 +38,8 @@
         <activity android:name=".Camera" />
         <activity android:name=".loginpage" />
         <activity android:name=".About" />
-        <activity android:name=".Developers"></activity>
+        <activity android:name=".Developers" />
+        <activity android:name=".helloworld"></activity>
     </application>
 
 </manifest>

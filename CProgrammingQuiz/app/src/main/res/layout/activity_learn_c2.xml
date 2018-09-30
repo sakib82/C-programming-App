@@ -25,10 +25,11 @@
         android:layout_marginTop="61dp">
         <TextView
             android:padding="20dp"
-            android:background="#15ec1c"
+            android:layout_marginTop="20dp"
+            android:background="@color/silver"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="description_txt" />
+            android:layout_height="wrap_content"
+            android:text="@string/variabletext" />
 
 
     </ScrollView>

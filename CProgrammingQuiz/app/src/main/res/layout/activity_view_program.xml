@@ -13,6 +13,7 @@
         android:orientation="vertical">
 
         <Button
+            android:id="@+id/helloworldid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Hello World"
@@ -22,6 +23,7 @@
             android:layout_margin="20dp"
             />
         <Button
+            android:id="@+id/sumoftwoid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Sum of two number"
@@ -31,6 +33,7 @@
             android:layout_margin="20dp"
             />
         <Button
+            android:id="@+id/checkprimeid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Check Prime number"
@@ -40,6 +43,7 @@
             android:layout_margin="20dp"
             />
         <Button
+            android:id="@+id/findfactorid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Find factor of a numer"

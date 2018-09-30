@@ -7,13 +7,12 @@
     tools:context=".Test1Question1"
     android:orientation="vertical">
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
 
     <TextView
-        android:id="@+id/questiontextviewid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text ="Beginner"
@@ -31,7 +30,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="50dp"
+            android:layout_marginRight="20dp"
             android:backgroundTint="@color/colorMain"
             android:text="Question"
             android:textSize="18sp" />
@@ -47,6 +46,7 @@
 
 
     <TextView
+        android:id="@+id/questiontextviewid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text ="If a=3 b=2 Then a%b=?"
@@ -100,5 +100,18 @@
         android:visibility="invisible"
         android:layout_gravity="center"
         />
+
+        <Button
+            android:id="@+id/checkbuttonid"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="check"
+            android:textSize="23sp"
+            android:layout_margin="10dp"
+            android:background="@color/colorMain"
+            android:visibility="invisible"
+            android:layout_gravity="center"
+            />
+
     </LinearLayout>
 </ScrollView>

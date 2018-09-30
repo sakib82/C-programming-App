@@ -23,7 +23,7 @@
         android:orientation="vertical">
         <Button
             android:id="@+id/buttonquiz1"
-            android:layout_width="336dp"
+            android:layout_width="match_parent"
             android:layout_height="65dp"
             android:layout_margin="15dp"
             android:background="@color/colorMain"
@@ -34,7 +34,7 @@
             android:textSize="30sp" />
         <Button
             android:id="@+id/buttonquiz2"
-            android:layout_width="336dp"
+            android:layout_width="match_parent"
             android:layout_height="65dp"
             android:layout_margin="15dp"
             android:background="@color/colorMain"
@@ -45,7 +45,7 @@
             android:textSize="30sp"/>
         <Button
             android:id="@+id/buttonquiz3"
-            android:layout_width="336dp"
+            android:layout_width="match_parent"
             android:layout_height="65dp"
             android:layout_margin="15dp"
             android:background="@color/colorMain"
